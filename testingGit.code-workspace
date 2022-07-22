@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "D:\\testingGit"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

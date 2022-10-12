@@ -41,7 +41,7 @@ def download_file_from_sftpserver(path):
                         # get file from sftp server to local directoary
                         remote_path,localpath="/"+file,path+file
                         sftp.get(remote_path, localpath)
-        print(f"file uploaded succesfully from SFTP server")              
+        print(f"file downloaded succesfully from SFTP server")              
             
                     
                     

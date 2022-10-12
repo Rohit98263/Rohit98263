@@ -7,6 +7,6 @@ Host gitlab.com
     User ROHIT SINGH
     HostName gitlab.com
     PreferredAuthentications publickey
-    IdentityFile /home/osiuser/.ssh/id_rs
+    IdentityFile /home/osiuser/.ssh/id_rsa
 
 

@@ -30,7 +30,7 @@ class GetFile:
 
 
                     if file_name in files_to_downloaded:
-                        self.client.download_file(bucket_name,key['Key'],cwd+file_name)
+                        res = self.client.download_file(bucket_name,key['Key'],cwd+file_name)
                
            
                 

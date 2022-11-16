@@ -24,7 +24,7 @@ class GetFile:
                 file_name=key['Key']
                 last_modified=str((key['LastModified']).strftime("%Y-%m-%d" ))
                 last_modified=last_modified.split()
-                print(last_modified)
+                
                 if last_modified[0]==yesterday:
                     files_to_downloaded.append(file_name)
 
